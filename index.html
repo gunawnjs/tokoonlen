@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>catalogue</title>
+        <link rel="stylesheet" href="./style.css"></link>
+    </head>
+    <body>
+       <header>
+        <section class="logo-web d-none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                <path fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z" clip-rule="evenodd" />
+                </svg>
+            <h1>Toko onlen</h1>
+        </section>
+        <nav>
+            <button id="btnSearch" class="btn-search d-none">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+                    </svg>
+            </button>
+            <div class="hidden-search">
+                <input type="text">
+                <button id="btnSearch" class="btn-search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+                        </svg>
+                </button>
+            </div>
+        </nav>
+        <ul class="nav-menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+       </header>
+       <main>
+        <section class="carousel">
+            <img src="./assets/desktop-18nov-ip15-car1.webp" alt="">
+        </section>
+        <section class="recent-product">
+            <div class="heading">
+                <h1>Recent Product</h1>
+                <span id="btnFilter" class="btn-filter">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd" d="M2.628 1.601C5.028 1.206 7.49 1 10 1s4.973.206 7.372.601a.75.75 0 01.628.74v2.288a2.25 2.25 0 01-.659 1.59l-4.682 4.683a2.25 2.25 0 00-.659 1.59v3.037c0 .684-.31 1.33-.844 1.757l-1.937 1.55A.75.75 0 018 18.25v-5.757a2.25 2.25 0 00-.659-1.591L2.659 6.22A2.25 2.25 0 012 4.629V2.34a.75.75 0 01.628-.74z" clip-rule="evenodd" />
+                    </svg>
+                </span>
+                <div class="filter-product">
+                    <p>Category :</p>
+                    <select id="filterProd">
+                        <!-- data filter -->
+                    </select>
+                </div>
+            </div>
+            <div class="all-item">
+                <!-- card item -->
+            </div>
+        </section>
+       </main>
+       <footer></footer>
+       <script src="script.js"></script>
+    </body>
+</html>
